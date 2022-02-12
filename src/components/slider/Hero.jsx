@@ -1,5 +1,4 @@
 import React from "react";
-import Social from "../Social";
 
 const heroContent = {
   shapeImage: "hero-shape",
@@ -7,6 +6,40 @@ const heroContent = {
   name: "PixelBaras",
   description: `Collection of capybaras `,
 };
+
+const Hero = () => {
+
+  return (
+    //    HERO
+
+      //*<div className="content">*/
+    
+    <div className="edina_tm_hero" id="home">  
+          <div className="content">
+                    <img //className="image"
+            src={`img/hero/${heroContent.shapeImage}`}
+            srcSet={`img/hero/${heroContent.heroImage}.png`}
+            alt="hero image"
+          />
+   
+
+          </div>
+
+
+
+    </div>
+  );
+};
+
+export default Hero;
+
+/*
+          <img
+            src={`img/hero/${heroContent.shapeImage}`}
+            srcSet={`img/hero/${heroContent.heroImage}.png`}
+            alt="hero image"
+          />
+        
 
 const Hero = () => {
   return (
@@ -45,7 +78,7 @@ const Hero = () => {
             alt="hero image"
           />
         </div>
-            {/*<Social />*/}
+
           </div>
 
         </div>
@@ -55,4 +88,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero;*/
