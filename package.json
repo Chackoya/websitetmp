@@ -3,6 +3,10 @@
   "version": "1.1.4",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -17,6 +21,7 @@
     "react-parallax-tilt": "^1.5.70",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
     "react-scrollspy-nav": "^1.2.4",
     "react-slick": "^0.28.1",
     "react-tooltip": "^4.2.21",

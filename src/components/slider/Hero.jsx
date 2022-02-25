@@ -15,12 +15,14 @@ const Hero = () => {
       //*<div className="content">*/
     
     <div className="edina_tm_hero" id="home">  
+
+      
           <div className="content">
-                    <img //className="image"
+            {/*<img //className="image"
             src={`img/hero/${heroContent.shapeImage}`}
             srcSet={`img/hero/${heroContent.heroImage}.png`}
             alt="hero image"
-          />
+          />*/}
    
 
           </div>

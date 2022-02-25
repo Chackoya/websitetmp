@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Skills from "../skills/Skills";
-import Modal from "react-modal";
-import ModalContent from "./modal/ModalContent";
+//import Skills from "../skills/Skills";
+//import Modal from "react-modal";
+//import ModalContent from "./modal/ModalContent";
 
-Modal.setAppElement("#root");
+//Modal.setAppElement("#root");
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,7 +83,15 @@ const About = () => {
         </div>
       </div>
 
-      {/* Start About Details Modal */}
+
+    </div>
+    // /ABOUT
+  );
+};
+
+export default About;
+/*
+      {/* Start About Details Modal 
       <Modal
         isOpen={isOpen}
         onRequestClose={toggleModalOne}
@@ -96,21 +104,16 @@ const About = () => {
           <button className="close-modal" onClick={toggleModalOne}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
-          {/* End close icon */}
+          {/* End close icon *
 
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <ModalContent />
             </div>
           </div>
-          {/* End box inner */}
+          {/* End box inner 
         </div>
-        {/* End modal box news */}
-      </Modal>
-      {/* End  About Details Modal */}
-    </div>
-    // /ABOUT
-  );
-};
+        {/* End modal box new      </Modal>
+      {/* End  About Details Modal 
 
-export default About;
+      */
